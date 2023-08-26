@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:ital,wght@400,600&display=swap');
+
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+font-family: 'poppins', sans-serif;
+}
+
+body
+{
+background: #dfe9f5;    
+}
+
+.wrapper
+{
+width: 330px;
+background-color: #fff;
+text-align: center;
+padding: 2rem 1rem;
+border-radius: 10px;
+box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+margin: 50px auto;    
+}
+
+.wrapper h1
+{
+position: relative;    
+font-size: 2rem;
+color: #07001f;
+margin-bottom: 1.2rem;    
+}
+.wrapper-extra
+{
+color:  rgb(6, 248, 155);    
+}
+
+.wrapper h1::before
+{
+position: absolute;
+content: '';
+width: 15%;
+height: 2px;
+background-color: rgb(0, 162, 255);
+bottom: -1px;  
+right: 120px;  
+}
+
+.wrapper form input
+{
+padding: 12px 20px;
+margin-bottom:10px; 
+border: 1px solid #fff;
+outline: none;
+background: #e4e4e4;
+border-radius: 20px;
+width: 92%;
+}
+
+.wrapper button
+{
+margin-top: 1.8rem;
+margin-bottom: 1rem; 
+width: 90%;
+padding: 10px 0;
+border-radius: 20px;
+border: 1px solid #fff;
+outline: none;
+border: none;
+background: rgba(0, 153, 255, 0.904);  
+font-size: 1.2rem;
+cursor: pointer;
+color: #fff;
+}
+.wrapper button:hover
+{
+background: rgba(17,107,143,0.8);    
+}
+input:focus
+{
+border: 1px solid rgb(192,192,192);    
+}
+
+/* terms */
+
+.terms
+{
+margin-top: 0.2rem;    
+}
+.terms input
+{
+height: 1em;
+width: 1em;
+vertical-align: middle;
+cursor: pointer;    
+}
+
+.terms label
+{
+font-size: 0.7rem;    
+}
+
+.terms a
+{
+text-decoration: none;
+color: rgb(17, 107, 143);    
+}
+
+.member
+{
+font-size: 0.8rem;
+margin-top: 1.4rem;
+color: #636363;
+}
+
+.member a
+{
+text-decoration: none;
+color: rgb(17, 107, 143);    
+}
+
+
+
+
+
+
+
+
+
+
